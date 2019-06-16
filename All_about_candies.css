@@ -1,0 +1,63 @@
+body {
+    background: rgb(223, 167, 104);
+}
+
+.blurb h3 {
+    color: chocolate;
+    font-weight: 100;
+    font-size: 2.5rem;
+ }
+ 
+ .blurb p {
+     color: grey;
+     font-weight: 100;
+     font-size: 1.125rem;
+     line-height: 2;
+ }
+
+ .content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#MainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#MainNavbar .nav-link {
+    color: white;
+}
+
+#MainNavbar .navbar-brand {
+    color: black;
+    font-size: 1.5rem;
+}
+
+#MainNavbar .nav-link:hover {
+    color: orangered;
+}
+
+#headingGroup span {
+    color: red;
+}
+
+#headingGroup h2 {
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+@media(max-width: 1200px) {
+    #headingGroup h2 {
+        font-weight: 100;
+        font-size: 2rem;
+    }
+    .blurb h3 {
+        font-size: 2rem;
+    }
+}
+
+.navbar.scrolled {
+    background: rgba(192, 59, 148, 0.733);
+    transition: background 500ms;
+}
